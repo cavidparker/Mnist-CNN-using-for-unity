@@ -32,7 +32,7 @@ parser.add_argument('--export_number', default=10)              # number of MNIS
 parser.add_argument('--plot_images', default=False)             # instead of training a model, display MNIST images
 
 # training params
-parser.add_argument('--epochs', default=3)                      # number of epochs to train model for
+parser.add_argument('--epochs', default=10)                      # number of epochs to train model for
 parser.add_argument('--batch_size', default=128)                # batch size to use for training
 
 args = parser.parse_args()
